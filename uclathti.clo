@@ -1,5 +1,6 @@
 % UCLA THESIS TITLE PAGE STYLE (format for preliminary pages)
-% (C) Copyright 1995 by John Heidemann,
+% (C) Copyright 2012 by Jose Hales-Garcia
+% derived from (C) Copyright 1995 by John Heidemann,
 % derived from work (C) Copyright 1988 Richard B. Wales,
 % taken in turn from material Copyright (C) 1985 by Leslie Lamport.
 
@@ -151,19 +152,18 @@
 % changed, it may be desirable to change the "\vskip" before the name.
 
 \newcommand\@signatureline[1]{
-   \rule{4in}{0.01in} \\ \vskip-10pt{#1} \\
-   \vskip 36pt plus0pt minus15pt%
+   \vskip-10pt{#1} \\
+   \vskip 24pt plus0pt minus15pt%
 }
 
 \newcommand\@makesignaturepage{
    \ColumnSave
-   \pagenumbering{roman}
-   \setcounter{page}{2}
+%   \setcounter{page}{4}
    \noindent
    \renewcommand\baselinestretch{\@doublespacing}\@normalsize
    \normalsize \normalfont The \@thesisname\ of \@author\ is approved.
-   \vskip 72pt plus0pt minus24pt
-   \begin {flushright}
+   \vskip 12pt plus0pt minus24pt
+   \begin {center}
       \ifnum\c@members>5 \@signatureline{\@memberF}\fi
       \ifnum\c@members>4 \@signatureline{\@memberE}\fi
       \ifnum\c@members>3 \@signatureline{\@memberD}\fi
@@ -182,8 +182,8 @@
          \@signatureline{\@chairA, Committee Chair}
       \else\typeout{No committee chair.}
       \fi\fi\fi
-   \end {flushright}
-   \vfill
+   \end {center}
+   \vskip 36pt
    \begin {center}
       University of California, Los Angeles \\ \@degreeyear
    \end {center}
@@ -452,6 +452,8 @@
 \newcommand{\@makeabstractpage}[1]{
    \if@abstract
       \ColumnSave
+      \pagenumbering{roman}
+      \setcounter{page}{2}
       \par\pagestyle{plain}
       \begin{center}
          \textsc{\large Abstract of the \@Thesisname}\\[12pt]
@@ -517,6 +519,7 @@
     \pagebreak   % the back side of the title page
   \fi
   \@makecopyrightpage
+  \@makeabstractpage{\@doublespacing}
   \@makesignaturepage
   \@makededication
   \tableofcontents
@@ -524,6 +527,5 @@
   \listoftables
   \@makeacknowledgments
   \@makevitapage
-  \@makeabstractpage{\@doublespacing}
   \newpage \pagenumbering{arabic}
 }

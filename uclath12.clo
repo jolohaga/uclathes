@@ -1,5 +1,6 @@
 % POINT SIZE OPTION for UCLA thesis style
-% (C) Copyright 1995 by John Heidemann,
+% (C) Copyright 2012 by Jose Hales-Garcia,
+% derived from work (C) Copyright 1995 by John Heidemann,
 % derived from work (C) Copyright 1988 Richard B. Wales,
 % taken in turn from material Copyright (C) 1985 by Leslie Lamport.
 
@@ -12,8 +13,8 @@
 % Version checking.
 %%%
 \NeedsTeXFormat{LaTeX2e}
-\def\uclathxiiversion{1.0 beta}
-\def\uclathxiidate{1995/05/11}
+\def\uclathxiiversion{2.0}
+\def\uclathxiidate{2012/05/03}
 \ProvidesFile{uclath12.clo}[\uclathxiidate, \uclathxiiversion]
 
 
@@ -104,8 +105,8 @@
 %
 
 % SIDE MARGINS:
-\oddsidemargin 0.65in     %   Note that \oddsidemargin = \evensidemargin
-\evensidemargin 0.65in    % these are added to the 1 inch margin.
+\oddsidemargin 0.5in     %   Note that \oddsidemargin = \evensidemargin
+\evensidemargin 0.5in    % these are added to the 1 inch margin.
 
 % VERTICAL SPACING:        
                           % Top of page:

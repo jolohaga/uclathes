@@ -1,5 +1,7 @@
 %
 % UCLA THESIS/DISSERTATION CLASS -- for LaTeX version 2e
+%	(C) Copyright 2012 by Jose Hales-Garcia.
+% Taken from UCLATHES
 %	(C) Copyright 1995 by John Heidemann.
 % Taken from UCLA THESIS/DISSERTATION CLASS (version 0.94 BETA, 5/23/91)
 %	(C) Copyright 1988 Richard B. Wales.  All Rights Reserved.
@@ -12,7 +14,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Please send comments about this style to:
-% John Heidemann <johnh@ficus.cs.ucla.edu>.
+% Jose Hales-Garcia <jolohaga@me.com>.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -150,12 +152,13 @@
 % Version checking.
 %%%
 \NeedsTeXFormat{LaTeX2e}
-\def\uclathesversion{1.0}
-\def\uclathesdate{1995/05/11}
+\def\uclathesversion{2.0}
+\def\uclathesdate{2012/05/02}
 \ProvidesClass{uclathes}[\uclathesdate, \uclathesversion]
+\typeout{UCLA 2.0 port copyright (C) 2012 by Jose Hales-Garcia.}
+\typeout{Please send bug reports and graduation notices to <jolohaga@me.com>.}
 \typeout{LaTeX2e port copyright (C) 1995 by John Heidemann.}
 \typeout{Copyright (C) 1988 by Richard B. Wales, copyright (C) 1985 by Leslie Lamport.}
-\typeout{Please send bug reports and graduation notices to <johnh@ficus.cs.ucla.edu>.}
 
 %
 % First load critical packages (needed for option processing).
