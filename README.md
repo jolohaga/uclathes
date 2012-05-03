@@ -1,7 +1,7 @@
 
-uclathes.tar
+uclathes
 ------------
-1996/06/10, release 1.2
+2012/05/02, release 2.0
 
 
 WHAT IS UCLATHES?
@@ -10,7 +10,7 @@ WHAT IS UCLATHES?
 This package is a beta test version of a LaTeX2e document
 style to format UCLA dissertations and theses.
 This style is based on work from Leslie Lamport,
-Dorab Patel, Eduardo Krell, Richard B. Wales, and John Heidemann.
+Dorab Patel, Eduardo Krell, Richard B. Wales, John Heidemann, Jose Hales-Garcia.
 
 This version should be considered ``beta test'' because
 no thesis formatted with it has yet been submitted to the Thesis
@@ -19,6 +19,11 @@ several theses and dissertations have been approved based on an
 earlier version of this style package for LaTeX 2.09.  Degrees
 were granted, so don't lose all hope.
 
+WHAT IS NEW WITH UCLATHES 2.0?
+------------------------------
+One inch margins on left and right.
+Abstract page follows the copyright page.
+Committee list is centered and signature lines removed.
 
 WHAT IS NEW WITH UCLATHES 1.2?
 ------------------------------
@@ -93,7 +98,7 @@ WHERE TO GET UCLATHES
 ---------------------
 
 The most recent version of this package can be found at
-<URL:http://www.isi.edu/~johnh/SOFTWARE/uclathes.html>.
+<URL:https://github.com/jolohaga/uclathes>.
 
 
 ISPELL GOBBLYGOOK
@@ -139,7 +144,7 @@ you should use the package "thesis.tar" (also available from
 <URL:http://www.isi.edu/~johnh/uclathes.html>) instead.
 
 
-UCLATHES NEEDS NEW MAINTAINER
+UCLATHES NEEDS NEW MAINTAINER (Obsolete)
 -----------------------------
 
 I've graduated and left UCLA so I'm looking for a new maintainer of
