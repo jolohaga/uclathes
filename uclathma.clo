@@ -1,4 +1,6 @@
 % UCLA THESIS MACROS
+% (C) Copyright 2012 by Jose Hales-Garcia,
+% derived from work (C) Copyright 1995 by John Heidemann,
 % (C) Copyright 1995 by John Heidemann,
 % derived from work (C) Copyright 1988 Richard B. Wales,
 % taken in turn from material Copyright (C) 1985 by Leslie Lamport.
@@ -7,8 +9,8 @@
 % Version checking.
 %%%
 \NeedsTeXFormat{LaTeX2e}
-\def\uclathmaversion{1.0 beta}
-\def\uclathmadate{1995/08/25}
+\def\uclathmaversion{2.0}
+\def\uclathmadate{2012/05/03}
 \ProvidesFile{uclathma}[\uclathmadate, \uclathmaversion]
 
 % The following commands set the thesis/dissertation title and author,

@@ -8,8 +8,8 @@
 % Version checking.
 %%%
 \NeedsTeXFormat{LaTeX2e}
-\def\uclathtiversion{1.0 beta}
-\def\uclathtidate{1995/05/11}
+\def\uclathtiversion{2.0}
+\def\uclathtidate{2012/05/03}
 \ProvidesFile{uclathti}[\uclathtidate, \uclathtiversion]
 
 %
