@@ -118,7 +118,7 @@
                           % Bottom of page:
 % johnh: footheight unused
 % \footheight 12pt          %    Height of box containing running foot.
-\footskip 0.25in            %    Distance from baseline of box containing
+\footskip 0.50in            %    Distance from baseline of box containing
                             %    foot to baseline of last line of text.
 % johnh: footskip -> 0.8in from 0.6in to meet RFTADP guidelines
 % (probably with LaTeX209 footheight was added to footskip).
