@@ -7,17 +7,13 @@ uclathes
 WHAT IS UCLATHES?
 -----------------
 
-This package is a beta test version of a LaTeX2e document
-style to format UCLA dissertations and theses.
-This style is based on work from Leslie Lamport,
-Dorab Patel, Eduardo Krell, Richard B. Wales, John Heidemann, Jose Hales-Garcia.
+This package is a LaTeX2e document style to format UCLA dissertations
+and theses.  This style is based on work from Leslie Lamport,
+Dorab Patel, Eduardo Krell, Richard B. Wales, John Heidemann, and
+Jose Hales-Garcia.
 
-This version should be considered ``beta test'' because
-no thesis formatted with it has yet been submitted to the Thesis
-and Dissertations Advisor for approval.  Before you throw it away,
-several theses and dissertations have been approved based on an
-earlier version of this style package for LaTeX 2.09.  Degrees
-were granted, so don't lose all hope.
+Several theses and dissertations have been approved based on this
+this style package.
 
 WHAT IS NEW WITH UCLATHES 2.0?
 ------------------------------
