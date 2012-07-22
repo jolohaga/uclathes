@@ -13,7 +13,7 @@ Dorab Patel, Eduardo Krell, Richard B. Wales, John Heidemann, and
 Jose Hales-Garcia.
 
 Several theses and dissertations have been approved based on this
-this style package.
+style package.
 
 WHAT IS NEW WITH UCLATHES 2.0?
 ------------------------------
