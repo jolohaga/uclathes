@@ -80,7 +80,7 @@ WHERE'S THE REAL DOCUMENTATION
 ------------------------------
 
 Rich Wales has prepared a good manual for uclathes.
-Read thesdoc.ps (or format and read thesdoc.tex) before
+Read thesdoc.pdf (or format and read thesdoc.tex) before
 proceeding.
 
 
@@ -115,7 +115,7 @@ encourage people to convert to the new macros.
 
 
 2.  If you don't specify a \degreeyear, the value on the title page
-may be wrong.  (This bug occurs in demo.ps.)
+may be wrong.  (This bug occurs in demo.pdf.)
 
 Work around:  always specify \degreeyear.
 
