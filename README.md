@@ -53,17 +53,11 @@ Enclosed in this package are the following files:
     uclathes.bst
 	This file implements the BibTeX "uclathes" bibliography style.
 
-    thesdoc.tex, thesdoc.ps
+    thesdoc.tex, thesdoc.pdf
 	A document describing the "uclathes" style material.
 
-    demo.tex, demo.ps
+    demo.tex, demo.pdf
 	The "demo thesis" described in thesdoc.tex.
-
-    demo2big.tex, demo2mac.tex, demo2rep.tex, demo2the.tex,
-		demo2ti.tex, demo2rep.ps, demo2the.ps
-	Another demonstration thesis.  This one can be formatted
-	two ways, as a uclathes or as a report (latex demo2the
-	and demo2rep, respectively)
 
     Makefile
 	Automates TeX'ing documents.
