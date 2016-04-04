@@ -53,7 +53,7 @@
 % The following commands set the year in which the degree will be
 % awarded, as well as the year of copyright.
 
-\def\@degreeyear{\number\month}
+\def\@degreeyear{\number\year}
 \def\@degreemonth{\ifcase\month\or
   January\or February\or March\or April\or May\or June\or
   July\or August\or September\or October\or November\or December\fi}
